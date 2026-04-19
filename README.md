@@ -36,8 +36,8 @@ Built with limited hardware (GTX 1060 + 32 GB RAM), demonstrating efficient reso
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/AmbrizREAA/AI-RAG-Application.git
-cd AI-RAG-Application
+git clone https://github.com/AmbrizREAA/AI-Document-Analyst-RAG.git
+cd AI-Document-Analyst
 ```
 ### 2. Create virtual environment (recommended)
 
@@ -83,11 +83,11 @@ Example questions:
 
 ## Project Structure
 ```text
-AI-RAG-Application/
-├── app.py                    # Main application file
+AI-Document-Analyst/
+├── app.py                             # Main application file
 ├── requirements.txt
 ├── .env.example
-├── data/                     # Folder where vector databases are stored (auto-created)
+├── vector_stores/                     # Folder where vector databases are stored (auto-created)
 └── README.md
 ```
 ---
