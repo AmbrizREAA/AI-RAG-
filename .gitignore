@@ -1,0 +1,13 @@
+# Variables de entorno y secretos
+.env
+
+# Entornos virtuales
+venv/
+env/
+
+# Archivos basura de Python
+__pycache__/
+*.pyc
+
+# Bases de datos vectoriales locales (Opcional, si guardas el FAISS localmente)
+faiss_index/
